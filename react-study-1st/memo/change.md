@@ -11,5 +11,5 @@ npm i -D eslint-config-airbnb
 npx install-peerdeps --dev eslint-config-airbnb
 
 npm install -D eslint-config-prettier eslint-plugin-prettier
-
+yarn add eslint babel-eslint -D
 https://techwell.wooritech.com/docs/tools/prettier/prettier-eslint-airbnb/

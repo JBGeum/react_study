@@ -1,10 +1,13 @@
 // .eslintrc.js
 module.exports = {
-  extends: ["airbnb-base", "plugin:prettier/recommended"],
+  extends: ['react-app', 'airbnb-base', 'plugin:prettier/recommended'],
   root: true,
   env: {
     node: true,
     jest: true,
   },
-  ignorePatterns: [".eslintrc.js"],
+  ignorePatterns: ['.eslintrc.js'],
+  rules: {
+    "no-unused-vars": "off",
+  },
 };
