@@ -7,7 +7,7 @@ class Counter extends Component {
   constructor(props) {
     super(props);
     //state는 객체형식이어야 함
-    this.counter = {
+    this.state = {
       number: 0,
       fixedNumber: 0
     };
@@ -48,7 +48,7 @@ class Counter extends Component {
               // prevState는 기존 상태, props는 현재 가진 props
               return { number: prevState.number + 1 };
             });
-            this.setState(prevState => ({ number: prevState.number + 1 }));
+            this.setState(prevState => ({ number: prevState.number + 1 })); // 인자로 함수를 전달하는 편이 성능 상 바람직함
           }}
         >
           +2

@@ -8,6 +8,7 @@ module.exports = {
   },
   ignorePatterns: ['.eslintrc.js'],
   rules: {
-    "no-unused-vars": "off",
+    'no-unused-vars': 'off',
+    'class-methods-use-this': 'off',
   },
 };
